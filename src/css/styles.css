@@ -1,0 +1,9 @@
+
+@import './gallery.css';
+@import './button.css';
+@import './form.css';
+@import './modal.css';
+
+body {
+    background-color: rgba(166, 179, 192, 0.699);
+}

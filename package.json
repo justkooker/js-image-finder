@@ -1,0 +1,40 @@
+{
+  "name": "js-image-finder",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://justkooker.github.io/js-image-finder",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-image-finder/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justkooker/js-image-finder.git"
+  },
+  "keywords": [],
+  "author": "Ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@pnotify/core": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "gh-pages": "^3.2.3",
+    "lodash.debounce": "^4.0.8",
+    "material-design-icons": "^3.0.1"
+  }
+}

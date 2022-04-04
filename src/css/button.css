@@ -1,0 +1,30 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.load-more {
+  visibility: hidden;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(77, 185, 185, 1) 0%,
+    rgba(71, 26, 236, 1) 48%,
+    rgba(81, 55, 130, 1) 98%
+  );
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+.load-more:hover {
+  cursor: pointer;
+}
+.load-more:active {
+  background: linear-gradient(
+    4deg,
+    rgba(77, 185, 185, 1) 0%,
+    rgba(71, 26, 236, 1) 48%,
+    rgba(81, 55, 130, 1) 98%
+  );
+}
